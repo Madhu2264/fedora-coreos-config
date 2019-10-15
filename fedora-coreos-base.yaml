@@ -103,7 +103,7 @@ packages:
   # SSH
   - openssh-server openssh-clients
   # Containers
-  - podman skopeo runc systemd-container
+  - podman-1.5.1-3.fc30 skopeo runc systemd-container
   - fuse-overlayfs slirp4netns
   # Remote IPC for podman
   - libvarlink-util

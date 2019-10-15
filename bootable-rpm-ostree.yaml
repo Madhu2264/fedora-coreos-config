@@ -7,7 +7,7 @@
 packages:
  # Kernel + systemd.  Note we explicitly specify kernel-{core,modules}
  # because otherwise depsolving could bring in kernel-debug.
- - kernel kernel-core kernel-modules systemd
+ - kernel kernel-core kernel-modules systemd-241-12.git1e19bcd.fc30
  # rpm-ostree
  - rpm-ostree nss-altfiles
 
